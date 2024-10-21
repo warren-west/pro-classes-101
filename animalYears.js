@@ -92,6 +92,8 @@ const myAnimals = [ warren, mads, yoda, ella, lily ]
 // ella.compareAge(lily)
 // ella.compareAge(yoda)
 
+// Polymorphism, one of the core pillars of OOP
+// states that we can treat child objects as their parent type:
 for (let i = 0; i < myAnimals.length - 1; i++) {
     myAnimals[i].compareAge(myAnimals[i + 1])
 }
